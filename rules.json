@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "regexSubstitution": "\\1/studenti\\2"
+            }
+        },
+        "condition": {
+            "regexFilter": "^(https://[a-zA-Z0-9-\\.]+\\.gympos\\.sk)/ziaci(.*)$",
+            "resourceTypes": ["main_frame", "sub_frame"]
+        }
+    }
+]
