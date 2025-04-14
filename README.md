@@ -1,4 +1,4 @@
-# Gympos Redirector
+# Gympos ziaci Fix
 
 A Chrome extension that fixes `gympos.sk/ziaci`. Features a toggle to enable/disable the fix.
 
